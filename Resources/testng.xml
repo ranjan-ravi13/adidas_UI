@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Adidas Test Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.adidas.extentReportListener.ExtentReportListener" />
+	</listeners>
+	
+	
+	<test name="Adidas Assignment">
+		<classes>
+			<class name="com.adidas.tests.LandingPageTest"></class>
+		  	<class name="com.adidas.tests.LoginPageTest"></class>
+			<class name="com.adidas.tests.HomePageTest"></class> 
+			<class name="com.adidas.tests.CartPageTest"></class>
+
+		</classes>
+	</test>
+	
+</suite>
